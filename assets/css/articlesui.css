@@ -1,0 +1,67 @@
+.button {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 2% 5%;
+    margin: 0.5vh 0;
+    background-color: #40798c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #40798caa;
+    color: white;
+    text-decoration: none;
+}
+
+.button.denied {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+.articleContain {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 1%;
+    margin: 1% 0;
+    justify-content: center;
+    overflow: hidden;
+}
+
+article * {
+    margin: 0.25vh 0;
+}
+
+article:hover {
+    transform: scale(1.025);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+@media (prefers-color-scheme: dark) {
+    article {
+        background-color: #505050b2;
+    }
+}
+
+#content h2,
+#content h3,
+#content p, 
+#content .button {
+    margin: 0;
+}

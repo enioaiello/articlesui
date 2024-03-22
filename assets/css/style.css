@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    transition: 200ms ease-in-out;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/background.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container * {
+    margin: 1vh 0;
+}
+
+.container h1,
+.container p {
+    color: white;
+}
+
+.container h1 {
+    font-size: 3rem;
+}
+
+.container p {
+    font-size: 1.5rem;
+}
+
+.container #links {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container #links .button {
+    display: inline-block;
+    text-align: center;
+    padding: 1% 5%;
+    margin: 0.5vh 1vh;
+    text-decoration: none;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+}
+
+.container #links .button:hover {
+    border: 2px solid #ffffffaa;
+}
+
+.container #links .primary {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.container #links .primary:hover,
+.container #links .secondary:hover {
+    background-color: #ffffffaa;
+}
+
+.container #links .secondary {
+    background-color: transparent;
+    color: #ffffff;
+}
