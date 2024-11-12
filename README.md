@@ -19,8 +19,8 @@ Pour commencer avec ArticlesUI, suivez ces étapes simples :
 
 Ajoutez cette ligne dans l'en-tête de votre fichier **HTML** ou **PHP** :
 
-```html
-<link rel="stylesheet" href="https://github.com/enioaiello/articlesui/blob/main/articlesui.css">
+```HTML
+<link rel="stylesheet" type="text/css" href="https://enioaiello.github.io/articlesui/articlesui.css">
 ```
 
 ### Télécharger la dernière version
