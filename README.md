@@ -2,8 +2,6 @@
 
 ArticlesUI est une feuille de style CSS légère conçue pour concevoir du contenu dynamique et responsive en utilisant du CSS et du JavaScript.
 
-[Voir le site](https://enioaiello.github.io/articlesui)
-
 ## Fonctionnalités
 
 - Design responsive : Assurez-vous que votre contenu s'affiche parfaitement sur tous les appareils.
@@ -22,7 +20,7 @@ Pour commencer avec ArticlesUI, suivez ces étapes simples :
 Ajoutez cette ligne dans l'en-tête de votre fichier **HTML** ou **PHP** :
 
 ```html
-<link rel="stylesheet" href="https://github.com/enioaiello/articlesui/blob/main/assets/css/articlesui.css">
+<link rel="stylesheet" href="https://github.com/enioaiello/articlesui/blob/main/articlesui.css">
 ```
 
 ### Télécharger la dernière version
